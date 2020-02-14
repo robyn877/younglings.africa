@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MY PERSONAL WEBSITE</title>
+    <link href="style3.css" rel="stylesheet" type=text/css>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <div class="row">
+        <ul class="main-nav">
+            <li class="nav-item"><a href="index.html">HOME</a></li class="nav-item">
+                <li class="nav-item"><a href="aboutme.html">ABOUT ME</a></li>
+                <li class="nav-item"><a href="GOALSANDOBJECTIVES.html">GOALS AND OBJECTIVES</a></li>
+                <li class="nav-item"><a href="CONTACTDETAILS.html">CONTACT DETAILS</a></li>
+            </ul>  
+    </div>
+
+    <form id="contactForm" type="POST" action="mailto:robynchase372@gmail.com">
+        <fieldset>
+            <legend>Personal information:</legend>
+            First name:<br>
+            <input type="text" id="firstname" name="firstname" ><br><br>
+            Last name:<br>
+            <input type="text" id="lastname" name="lastname"><br><br>
+            Contact number:<br>
+            <input type="text" id="phone" name="contactnumber"><br><br>
+            Message:<br>
+            <textarea type="text" id="message" name="contactnumber"></textarea><br><br>
+            <div class="g-recaptcha" data-sitekey="6Lcxf9gUAAAAAIlwu392zP9ASy1b3YIsk0CCOc3g"></div>
+            <br/>
+            
+            <input type="submit" value="submit">
+        </fieldset>
+    </form>
+
+    <p>CONTACT DETAILSA:062 535 6355</p><br>
+    <p>EMAIL ADDRESS:robynchase372@gmail.com</p>
+
+    <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase.js"></script>
+    <script src="index.js"></script>
+
+
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase.js"></script>
+        <script src="index.js"></script>
+</html>

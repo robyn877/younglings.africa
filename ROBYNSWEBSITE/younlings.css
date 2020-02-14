@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body
+  {
+    background-image: url('./background-3138516_960_720.jpg');
+    background-size: cover;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top:30px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav-li a 
+{  
+    color: white;
+    text-decoration: none;
+    padding: 5px 20;
+    font-family :"Roboto",sans-serif;
+    font-size:15px;
+
+    
+}
+
+.main-nav li.active a
+{ 
+    border:1px solid plum;
+}
+
+.main-nav li a 
+{
+    border:1px solid palevioletred;
+}
+
+img {
+    border-radius: 50%;
+  }
+  
+    
+
